@@ -7,7 +7,6 @@ This is a console Bank Management System built using C++.
 It was built as part of my learning journey through the Programming Advices roadmap (Course 7 & Course 8).  
 
 The system provides client management, transaction processing, user authentication, and user management with permission-based access control.
-
 All data is stored using file handling to simulate a real banking system.
 
 ---

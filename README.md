@@ -4,16 +4,45 @@
 
 This is a console Bank Management System built using C++.  
 
-It was built as part of my learning journey through the Programming Advices roadmap (Course 7).  
+It was built as part of my learning journey through the Programming Advices roadmap (Course 7 & Course 8).  
 
-The system allows managing clients and performing basic banking operations such as adding clients, deleting them, updating their information, and handling transactions.
+The system provides client management, transaction processing, user authentication, and user management with permission-based access control. All data is stored using file handling to simulate a real banking system.
 
+---
+## 📦 Releases
 
-The project uses file handling to store client data permanently.
+### v2.0
+**Final Project – Programming Advices Course 8**
 
+- User Authentication
+- Permission-Based Access Control
+- User Management
+- Client Management
+- Banking Transactions
+
+### v1.0
+**Final Project – Programming Advices Course 7**
+
+- Client Management
+- Banking Transactions
 ---
 
 ## 🚀 Features
+
+### 🔐 Authentication
+- User Login
+- User Logout
+
+### 🛡️ Authorization
+- User Permissions
+- Access Control
+
+### 👥 User Management
+- Show Users List
+- Add New User
+- Delete User
+- Update User Information
+- Find User
 
 ### 👤 Client Management
 
@@ -36,15 +65,17 @@ The project uses file handling to store client data permanently.
 * C++
 * File Handling (`fstream`)
 * STL (`vector`, `string`)
+* Structures (`struct`)
 * Console Application
 
 ---
 
 ## 📂 Project Structure
 
-* `ClientList.txt` → stores all client data
-* `main.cpp` → contains all logic and functions
-
+* `BankSystem.cpp` — Main application source code.
+* `ClientList.txt` — Stores client records.
+* `Users.txt` — Stores users and their permissions.
+  
 ---
 
 ## ▶️ How to Run
@@ -79,13 +110,22 @@ Here are some screenshots from the system:
 
 <img width="698" height="173" alt="Transactions" src="https://github.com/user-attachments/assets/de6b355c-ac2d-40ec-9fee-bbed29ff1026" />
 
+### 🔹 Manage Users
+
+<img width="683" height="204" alt="Manage Users" src="https://github.com/user-attachments/assets/3d2b0a85-f280-4022-89ff-bff6b6e713dd" />
 
 ---
-## 🔮 Future Improvements
+## ⭐ Highlights
 
-- Replace file storage with a database system (e.g., MySQL)  
-- Refactor the project using Object-Oriented Programming (OOP) principles  
-- Develop a graphical user interface (GUI) 
+- Authentication System
+- Permission-Based Access Control
+- Client & User Management
+- Persistent Data Storage
+- Modular Function-Based Design
 ---
 
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 
+![Version](https://img.shields.io/badge/Version-v2.0-green)
+
+![Platform](https://img.shields.io/badge/Platform-Console-orange)
